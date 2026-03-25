@@ -4,17 +4,17 @@ Visualisation dynamique des résultats électoraux par commune, département et 
 
 ## Screenshots
 
-### 🌍 Vue Nationale
+### Vue Nationale
 ![Vue Nationale](screenshots/national_dash.png)
 
-### 📊 Analyses Statistiques
+### Analyses Statistiques
 ![Analyses](screenshots/analytics_dash.png)
 
-### 🗺️ Vue Départementale & Régionale
+### Vue Départementale & Régionale
 ![Vue Départementale](screenshots/departement_dash.png)
 ![Vue Régionale](screenshots/region_dash.png)
 
-### 🏘️ Vue Communale
+### Vue Communale
 ![Vue Communale](screenshots/commune_dash.png)
 
 ---
