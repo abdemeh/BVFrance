@@ -1,15 +1,15 @@
-# 🗳️ BVFrance - Election Analytics Dashboard
+# BVFrance - Election Analytics Dashboard
 
 Visualisation dynamique des résultats électoraux par commune, département et région. Propulsé par **DuckDB** & **CY Tech**.
 
-## 🏗️ Architecture
+## Architecture
 - **Frontend** : React + Vite + Recharts + Lucide Icons (Branding CY Tech).
 - **Backend** : FastAPI + Pandas + DuckDB (Analyses haute performance).
 - **Data** : Fichiers Parquet stockés dans `backend/parquet/`.
 
 ---
 
-## 🚀 Lancement Rapide
+## Lancement Rapide
 
 ### 1. Reset des ports (Optionnel)
 Si les ports sont déjà utilisés, tuez-les :
@@ -35,7 +35,7 @@ npm run dev -- --port 3000
 
 ---
 
-## 📊 Fonctionnalités
+## Fonctionnalités
 - **National** : Vue globale avec sélecteur de tours (Total, T1, T2).
 - **Géo** : Recherche par Région ou Département avec KPIs locaux.
 - **Commune** : Détail des listes et sièges au niveau municipal.
