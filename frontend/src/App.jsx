@@ -30,7 +30,7 @@ function App() {
       { id: 'REGION', label: 'Région' },
       { id: 'DEPARTEMENT', label: 'Département' },
       { id: 'COMMUNE', label: 'Commune' },
-      { id: 'ADVANCED', label: 'Analyses' },
+      { id: 'ADVANCED', label: 'Analytics' },
    ];
 
    const fetchData = async () => {
@@ -128,7 +128,7 @@ function App() {
                <span className="title-tag">Résultats 2026</span>
                <h1>
                   {activeTab === 'NATIONAL' ? 'Tableau National' :
-                     activeTab === 'ADVANCED' ? 'Analytics Pro' :
+                     activeTab === 'ADVANCED' ? 'Analytics' :
                         activeTab === 'COMMUNE' ? (communeData?.nom || 'Choisir Commune') :
                            (geoData?.label || (activeTab === 'REGION' ? 'Choisir Région' : 'Choisir Département'))}
                </h1>
@@ -253,10 +253,13 @@ function App() {
                   {activeTab === 'ADVANCED' && advStats && (
                      <div className="advanced-pro-dashboard animate-slide-up">
 
-                        <div className="tour-pill-modern mb-8" style={{ justifyContent: 'center' }}>
+                     <div className="analytics-header-row">
+                        <div className="tour-pill-modern small-pill">
+                           <button className={tour === 0 ? 'active' : ''} onClick={() => setTour(0)}>Total</button>
                            <button className={tour === 1 ? 'active' : ''} onClick={() => setTour(1)}>Tour 1</button>
                            <button className={tour === 2 ? 'active' : ''} onClick={() => setTour(2)}>Tour 2</button>
                         </div>
+                     </div>
 
                         <div className="chart-grid-modern">
                            <div className="viz-card-modern">

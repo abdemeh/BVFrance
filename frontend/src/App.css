@@ -312,3 +312,18 @@ body {
   background: #f8fafc;
   border-radius: 1rem;
 }
+
+.analytics-header-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.small-pill {
+  padding: 0.25rem;
+}
+
+.small-pill button {
+  padding: 0.35rem 0.85rem;
+  font-size: 0.7rem;
+}
