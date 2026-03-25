@@ -1,0 +1,10 @@
+Loaded municipales-2026-resultats-bureau-de-vote-2026-03-23-16h15.parquet: 17292 rows, 84 columns. Tour=1
+Loaded municipales-2026-resultats-bv-par-communes-2026-03-20.parquet: 69737 rows, 188 columns. Tour=1
+SUCCESS: Loaded 242928 records into DuckDB (results table)
+Testing load_data...
+Loaded municipales-2026-resultats-bureau-de-vote-2026-03-23-16h15.parquet: 17292 rows, 84 columns. Tour=1
+Loaded municipales-2026-resultats-bv-par-communes-2026-03-20.parquet: 69737 rows, 188 columns. Tour=1
+SUCCESS: Loaded 242928 records into DuckDB (results table)
+Result: True
+
+
