@@ -78,7 +78,7 @@ def load_data():
                     l_col = gc([f"libellé de liste {i}", f"libellé abrégé de liste {i}"])
 
                     nuance = str(row.get(n_col, "SANS ÉTIQUETTE")).strip()
-                    if not nuance: nuance = "SANS ÉTIQUETTE"
+                    if not nuance or nuance.lower() == 'nan': nuance = "SANS ÉTIQUETTE"
 
                     all_rows.append({
                         **base_row,
